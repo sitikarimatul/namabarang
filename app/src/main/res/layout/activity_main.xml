@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:layout_marginLeft="16dp"
+  android:layout_marginRight="16dp"
+  tools:context=".MainActivity">
+
+  <EditText
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/edtkodebarang"
+  android:hint="kode barang"/>
+
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtnamabarang"
+    android:hint="nama barang"/>
+
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtharga"
+    android:hint="harga barang"/>
+
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtjenis"
+    android:hint="jenis barang"/>
+
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtdataku" />
+
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SIMPAN"
+    android:id="@+id/btnsimpan"/>
+
+
+</LinearLayout>
